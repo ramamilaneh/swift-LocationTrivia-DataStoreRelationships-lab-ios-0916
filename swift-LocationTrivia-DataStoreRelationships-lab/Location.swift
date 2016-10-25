@@ -10,9 +10,9 @@ import Foundation
 
 class Location {
     
-    let name: String
-    let latitude: Float
-    let longitude: Float
+    var name: String
+    var latitude: Float
+    var longitude: Float
     var trivia: [Trivium]
     
     init (name: String, latitude: Float, longitude: Float, trivia: [Trivium] = []) {
@@ -53,3 +53,5 @@ class Location {
         return triviumWithMostLikes
     }
 }
+
+

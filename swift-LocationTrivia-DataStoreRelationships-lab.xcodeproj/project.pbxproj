@@ -13,6 +13,12 @@
 		1B4006DC1D259895008F814D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4006D91D259895008F814D /* Location.swift */; };
 		1B4006DE1D259895008F814D /* Trivium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4006DB1D259895008F814D /* Trivium.swift */; };
 		3D5B53CA8D7389813771FFB7 /* Pods_swift_LocationTrivia_DataStoreRelationships_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B377A86E7BBC03AEAE2C0FC /* Pods_swift_LocationTrivia_DataStoreRelationships_lab.framework */; };
+		A2CADC7F1DBF903500491B65 /* LocationsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CADC7E1DBF903500491B65 /* LocationsDataStore.swift */; };
+		A2CADC811DBF97D900491B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CADC801DBF97D900491B65 /* Main.storyboard */; };
+		A2CADC831DBF986600491B65 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CADC821DBF986600491B65 /* LocationTableViewController.swift */; };
+		A2CADC851DBFA77A00491B65 /* TriviaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CADC841DBFA77A00491B65 /* TriviaTableViewController.swift */; };
+		A2CADC871DBFCBE500491B65 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CADC861DBFCBE500491B65 /* AddLocationViewController.swift */; };
+		A2CADC891DC0031B00491B65 /* AddTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CADC881DC0031B00491B65 /* AddTriviaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		599E9E96BAA8225332DF9C54 /* Pods_swift_LocationTrivia_DataStoreRelationships_labTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_LocationTrivia_DataStoreRelationships_labTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		716FFC6758F1D80E6ED2D29B /* Pods-swift-LocationTrivia-DataStoreRelationships-labUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-DataStoreRelationships-labUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-DataStoreRelationships-labUITests/Pods-swift-LocationTrivia-DataStoreRelationships-labUITests.release.xcconfig"; sourceTree = "<group>"; };
 		733C4837168CAA9E232B63EC /* Pods_swift_LocationTrivia_DataStoreRelationships_labUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_LocationTrivia_DataStoreRelationships_labUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CADC7E1DBF903500491B65 /* LocationsDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataStore.swift; sourceTree = "<group>"; };
+		A2CADC801DBF97D900491B65 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A2CADC821DBF986600491B65 /* LocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		A2CADC841DBFA77A00491B65 /* TriviaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewController.swift; sourceTree = "<group>"; };
+		A2CADC861DBFCBE500491B65 /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		A2CADC881DC0031B00491B65 /* AddTriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTriviaViewController.swift; sourceTree = "<group>"; };
 		BBF2A74239F9CDF487676C51 /* Pods-swift-LocationTrivia-DataStoreRelationships-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-DataStoreRelationships-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-DataStoreRelationships-labTests/Pods-swift-LocationTrivia-DataStoreRelationships-labTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3D4DDC354B806EC3C13E31F /* Pods-swift-LocationTrivia-DataStoreRelationships-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-DataStoreRelationships-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-DataStoreRelationships-labTests/Pods-swift-LocationTrivia-DataStoreRelationships-labTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +84,13 @@
 				1B4006DB1D259895008F814D /* Trivium.swift */,
 				1B4006C01D25974A008F814D /* Assets.xcassets */,
 				1B4006C21D25974A008F814D /* LaunchScreen.storyboard */,
+				A2CADC801DBF97D900491B65 /* Main.storyboard */,
 				1B4006C51D25974A008F814D /* Info.plist */,
+				A2CADC7E1DBF903500491B65 /* LocationsDataStore.swift */,
+				A2CADC821DBF986600491B65 /* LocationTableViewController.swift */,
+				A2CADC841DBFA77A00491B65 /* TriviaTableViewController.swift */,
+				A2CADC861DBFCBE500491B65 /* AddLocationViewController.swift */,
+				A2CADC881DC0031B00491B65 /* AddTriviaViewController.swift */,
 			);
 			path = "swift-LocationTrivia-DataStoreRelationships-lab";
 			sourceTree = "<group>";
@@ -163,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CADC811DBF97D900491B65 /* Main.storyboard in Resources */,
 				1B4006C41D25974A008F814D /* LaunchScreen.storyboard in Resources */,
 				1B4006C11D25974A008F814D /* Assets.xcassets in Resources */,
 			);
@@ -223,9 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CADC851DBFA77A00491B65 /* TriviaTableViewController.swift in Sources */,
 				1B4006DE1D259895008F814D /* Trivium.swift in Sources */,
 				1B4006DC1D259895008F814D /* Location.swift in Sources */,
+				A2CADC871DBFCBE500491B65 /* AddLocationViewController.swift in Sources */,
+				A2CADC7F1DBF903500491B65 /* LocationsDataStore.swift in Sources */,
+				A2CADC831DBF986600491B65 /* LocationTableViewController.swift in Sources */,
 				1B4006BA1D25974A008F814D /* AppDelegate.swift in Sources */,
+				A2CADC891DC0031B00491B65 /* AddTriviaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
